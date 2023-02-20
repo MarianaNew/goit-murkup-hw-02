@@ -12,8 +12,10 @@ body {font-family: var(--primary-font);
 color: var(--text-color);
     background-color: var(--main-title-color);}
 
+ /* -------------Components__________ */
+
 .logo, .logo-studio, .footer-logo-studio {
-font-family: 'Raleway', sans-serif;
+font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 1,17;
@@ -32,14 +34,34 @@ color: var(--cloud-color);
 .list {list-style: none;}
 .link {text-decoration: none;} 
 address {font-style: normal}
+
 .btn {font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1,5;
     letter-spacing: 0.04em;
     cursor: pointer;}
+   
+    .title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1,2;
+     letter-spacing: 0.02em; 
+        color: var(--secondary-title-color);}
 
-/* -----------Header--------------- */
+        .text {font-weight: 400;
+            font-size: 16px;
+            line-height: 1,5;
+            letter-spacing: 0.02em;
+            color: var(--text-color);
+        }
+        .work-title, .team-title {font-size: 36px;
+            line-height: 1,11;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+            color: var(--secondary-title-color);}
+         /* -------------/Components__________ */
+    /* -----------Header--------------- */
 .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -59,7 +81,7 @@ color: var(--text-color);
 }
 .contact-link:hover,
 .contact-link:focus {color: var(--focus-color);}
-
+/* -----------/Header--------------- */
 
 /* -----------Hero section----------------*/
 .hero {
@@ -77,6 +99,7 @@ background: var(--accent-color);
 }
 .hero .btn:hover,
 .hero .btn:focus {background: var(--focus-color);}
+/* -----------/Hero section----------------*/
 
 /* -----------Features section------------ */
 .visually-hidden {
@@ -91,29 +114,8 @@ background: var(--accent-color);
     overflow: hidden;
     width: 1px;
  }
-.feature-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1,2;
- letter-spacing: 0.02em; 
-    color: var(--secondary-title-color);
-}
-.feature-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1,5;
-letter-spacing: 0.02em;  
-    color: var(--text-color);
-}
+/* -----------/Features section------------ */
 
-/*---------------- Work section--------------- */
-.work-title {
-font-size: 36px;
-line-height: 1,11;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--secondary-title-color);
-}
 
 /* ---------------Team section ---------------*/
 .team {background-color: var(--cloud-color);
@@ -121,27 +123,8 @@ color: var(--secondary-title-color);
 .team-item {
     background-color: var(--main-title-color);  
 }
-.team-title {
-    font-size: 36px;
-    line-height: 1,11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--secondary-title-color);
-}
-.team-card {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1,2;
-letter-spacing: 0.02em;
-color: var(--secondary-title-color);
-}
-.team-describtion {
-    font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: var(--text-color);
-}
+
+/* ---------------/Team section ---------------*/
 
 /* ---------------Projects section-------------- */
 .filter .btn { 
@@ -160,20 +143,7 @@ line-height: 1,5;
 letter-spacing: 0.04em;
 color: var(--secondary-title-color);
 }
-.project-title {
-    font-weight: 500;
-font-size: 20px;
-line-height: 1,2;
-letter-spacing: 0.02em;
-color: var(--secondary-title-color);
-}
-.project-description {
-    font-weight: 400;
-font-size: 16px;
-line-height: 1,5;
-letter-spacing: 0.02em;
-color: var(--text-color);
-}
+/* ---------------/Projects section-------------- */
 
 /* -----------------Footer--------------------- */
 .footer {background-color: var(--secondary-title-color);
@@ -185,4 +155,4 @@ line-height: 1,5;
 letter-spacing: 0.02em;
 color: var(--footer-text-color);
 }
-
+/* -----------------/Footer--------------------- */
