@@ -1,0 +1,188 @@
+:root { --main-title-color:  #FFFFFF;
+--secondary-title-color:  #2E2F42;
+--text-color: #434455;
+--accent-color: #4D5AE5;
+--cloud-color: #F4F4FD;
+--footer-text-color: #E7E9FC;
+--focus-color: #404BBF;
+--primary-font: "Roboto", sans-serif;
+--secondary-font: "Raleway", sans-serif;
+}
+body {font-family: var(--primary-font);
+color: var(--text-color);
+    background-color: var(--main-title-color);}
+
+.logo, .logo-studio, .footer-logo-studio {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1,17;
+letter-spacing: 0.03em;
+text-transform: uppercase;}
+
+.logo {color: var(--accent-color);
+}
+.logo-studio {
+color: var(--secondary-title-color);
+}
+.footer-logo-studio{
+color: var(--cloud-color);
+}
+
+.list {list-style: none;}
+.link {text-decoration: none;} 
+address {font-style: normal}
+.btn {font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.04em;
+    cursor: pointer;}
+
+/* -----------Header--------------- */
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-title-color);
+}
+.header-link:hover,
+.header-link:focus {color: var(--focus-color);} 
+
+.contact-link {
+font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+.contact-link:hover,
+.contact-link:focus {color: var(--focus-color);}
+
+
+/* -----------Hero section----------------*/
+.hero {
+background: var(--secondary-title-color);
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--main-title-color);}
+.hero .btn {  
+color:
+var(--main-title-color);
+background: var(--accent-color);
+}
+.hero .btn:hover,
+.hero .btn:focus {background: var(--focus-color);}
+
+/* -----------Features section------------ */
+.visually-hidden {
+    position: absolute;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    width: 1px;
+ }
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1,2;
+ letter-spacing: 0.02em; 
+    color: var(--secondary-title-color);
+}
+.feature-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,5;
+letter-spacing: 0.02em;  
+    color: var(--text-color);
+}
+
+/*---------------- Work section--------------- */
+.work-title {
+font-size: 36px;
+line-height: 1,11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--secondary-title-color);
+}
+
+/* ---------------Team section ---------------*/
+.team {background-color: var(--cloud-color);
+}
+.team-item {
+    background-color: var(--main-title-color);  
+}
+.team-title {
+    font-size: 36px;
+    line-height: 1,11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--secondary-title-color);
+}
+.team-card {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+color: var(--secondary-title-color);
+}
+.team-describtion {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+/* ---------------Projects section-------------- */
+.filter .btn { 
+    color: var(--accent-color);
+    background: var(--cloud-color);
+}
+.filter .btn:hover,
+.filter .btn:focus{
+    color:  var(--main-title-color);
+   background: var(--focus-color);
+}
+.project-item {
+    font-weight: 500;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.04em;
+color: var(--secondary-title-color);
+}
+.project-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+color: var(--secondary-title-color);
+}
+.project-description {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: var(--text-color);
+}
+
+/* -----------------Footer--------------------- */
+.footer {background-color: var(--secondary-title-color);
+}
+.footer-text {
+    font-weight: 400;
+font-size: 16px;
+line-height: 1,5;
+letter-spacing: 0.02em;
+color: var(--footer-text-color);
+}
+
